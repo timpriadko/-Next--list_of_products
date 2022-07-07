@@ -2,7 +2,7 @@ export interface HeaderProps {}
 
 const Header = function (props: HeaderProps): JSX.Element {
   return (
-    <nav className="navbar bg-stone">
+    <nav className="navbar bg-gray-800">
       <div className="container d-flex">
         <h1>
           <a href="/">Post App</a>
