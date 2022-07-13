@@ -7,8 +7,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: theme("colors.blue.300");
   text-decoration: none;
+
+  &:hover {
+    color: theme("colors.gray.400");
+  }
 }
 
 * {

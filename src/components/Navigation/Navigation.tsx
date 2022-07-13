@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <nav className={clsx("flex flex-row	items-center flex-wrap")}>
       {navItems.map((item: NavItemInterface) => {
-        return <NavItem item={item} />;
+        return <NavItem item={item} key={item.id} />;
       })}
     </nav>
   );
