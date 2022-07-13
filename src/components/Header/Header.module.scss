@@ -1,4 +1,19 @@
 .navbar {
-  @apply bg-gray-800;
+  @apply bg-gray-800 flex justify-between items-center;
   color: theme("colors.white");
+  padding: 0.5rem 1rem;
+
+  & > div {
+    @apply flex justify-between items-center;
+
+    h1 {
+      font-size: 2.5rem;
+
+      a {
+        color: theme("colors.blue.300");
+        text-decoration: none;
+        background-color: transparent;
+      }
+    }
+  }
 }

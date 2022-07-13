@@ -1,19 +1,20 @@
 import clsx from "clsx";
+import Link from "next/link";
+import Menu from "./components/Menu";
 import styles from "./Header.module.scss";
 
 export interface HeaderProps {}
 
 const Header = function (props: HeaderProps): JSX.Element {
   return (
-    <nav className={clsx(styles["navbar"])}>
-      <div className="container d-flex">
+    <header className={clsx(styles["navbar"])}>
+      <div className={clsx("container", "mx-auto")}>
         <h1>
-          <a href="/">Post App</a>
+          <Link href="/">Post App</Link>
         </h1>
-        {/* TODO lang selector */}
-        <div>menu</div>
+        <Menu />
       </div>
-    </nav>
+    </header>
   );
 };
 

@@ -1,8 +1,11 @@
+const { join } = require("path");
 module.exports = {
   plugins: {
     "postcss-import": {},
     autoprefixer: {},
-    tailwindcss: {},
+    tailwindcss: {
+      config: join(__dirname, "tailwind.config.js"),
+    },
     "postcss-flexbugs-fixes": {},
     "postcss-preset-env": {
       autoprefixer: {
