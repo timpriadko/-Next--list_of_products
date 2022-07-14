@@ -1,0 +1,18 @@
+{
+  "common.delete": "Effacer",
+  "common.change": "Changer",
+  "common.app_name": "Poste candidature",
+  "common.home": "Page d'accueil",
+  "common.home_page": "Page d'accueil",
+  "common.posts": "Des Postes",
+  "common.footer": "Bas de page",
+  "common.go_to_posts": "Aller aux messages",
+  "common.copyright": "Copyright © 2022. Tous droits réservés.",
+  "common.save": "Sauvegarder",
+  "common.open": "Ouvrir",
+  "headline": "Gros titre",
+  "headline.tooltip": "Cliquez sur le texte du titre pour le modifier",
+  "headline.change": "Changer le titre",
+  "language.en": "Anglais",
+  "language.fr": "Français"
+}

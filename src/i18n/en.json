@@ -1,0 +1,18 @@
+{
+  "common.delete": "Delete",
+  "common.change": "Change",
+  "common.app_name": "Post App",
+  "common.home": "Home",
+  "common.home_page": "Home page",
+  "common.posts": "Posts",
+  "common.footer": "Footer",
+  "common.go_to_posts": "Go to Posts",
+  "common.copyright": "Copyright © 2022. All rights reserved.",
+  "common.save": "Save",
+  "common.open": "Open",
+  "headline": "Headline",
+  "headline.tooltip": "Click the headline text to change it",
+  "headline.change": "Change Headline",
+  "language.en": "English",
+  "language.fr": "Franch"
+}
