@@ -1,4 +1,39 @@
 .lang-switcher {
   padding: 10px 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+
+  [class$="-control"] {
+    border: 0;
+    background: theme("colors.gray.900");
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+  [class$="-ValueContainer"] {
+    [class$="-singleValue"] {
+      color: theme("colors.white");
+      text-transform: uppercase;
+    }
+  }
+
+  [class$="-menu"] {
+    background: theme("colors.gray.900");
+    color: theme("colors.white");
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-shadow: theme("boxShadow.sm");
+    margin: 0;
+
+    [class$="-option"] {
+      background: theme("colors.gray.900");
+      text-transform: uppercase;
+      cursor: pointer;
+      @apply ease-out duration-300;
+
+      &:hover {
+        color: theme("colors.blue.50");
+        @apply ease-out duration-300;
+      }
+    }
+  }
 }

@@ -1,11 +1,11 @@
 export const navItems = [
   {
-    label: "HOME",
+    label: "home",
     link: "/",
     id: 1,
   },
   {
-    label: "POSTS",
+    label: "posts",
     link: "/posts",
     id: 2,
   },

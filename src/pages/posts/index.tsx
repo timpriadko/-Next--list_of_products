@@ -1,9 +1,7 @@
 import clsx from "clsx";
-import { FormattedMessage, useIntl } from "react-intl";
+import { FormattedMessage } from "react-intl";
 
 export default function Home() {
-  const intl = useIntl();
-
   return (
     <div className={clsx("container")}>
       <h2>

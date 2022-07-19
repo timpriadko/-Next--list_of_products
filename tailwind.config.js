@@ -60,6 +60,16 @@ module.exports = {
           50: "#4da3ff",
         },
       },
+      boxShadow: {
+        sm: "0 .1rem .2rem 0 rgb(0 0 0 / 0.05)",
+        DEFAULT:
+          "0 .1rem .3rem 0 rgb(0 0 0 / 0.1), 0 .1rem .2rem -.1rem rgb(0 0 0 / 0.1)",
+        md: "0 .4rem .6rem -.1rem rgb(0 0 0 / 0.1), 0 .2rem .4rem -.2rem rgb(0 0 0 / 0.1)",
+        lg: "0 1rem 1.5rem -.3rem rgb(0 0 0 / 0.1), 0 .4rem .6erm -.4rem rgb(0 0 0 / 0.1)",
+        xl: "0 2rem 2.5rem -.5rem rgb(0 0 0 / 0.1), 0 .8rem 1rem -.6rem rgb(0 0 0 / 0.1)",
+        "2xl": "0 2.5rem 5rem -1.2rem rgb(0 0 0 / 0.25)",
+        inner: "inset 0 .2rem .4rem 0 rgb(0 0 0 / 0.05)",
+      },
     },
     screens: {
       sm: "640px",

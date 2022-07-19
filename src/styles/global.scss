@@ -9,9 +9,11 @@ body {
 a {
   color: theme("colors.blue.300");
   text-decoration: none;
+  @apply ease-out duration-300;
 
   &:hover {
     color: theme("colors.gray.400");
+    @apply ease-out duration-300;
   }
 }
 
